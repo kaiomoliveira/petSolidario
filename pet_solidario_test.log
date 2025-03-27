@@ -1,0 +1,475 @@
+2024-11-21T19:42:45.054-03:00  INFO 10836 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : Starting PetSolidarioApplication using Java 17.0.6 with PID 10836 (C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\PetSolidario\target\classes started by LM in C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\PetSolidario)
+2024-11-21T19:42:45.065-03:00  INFO 10836 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : The following 1 profile is active: "test"
+2024-11-21T19:42:45.960-03:00  INFO 10836 --- [PetSolidario] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T19:42:46.102-03:00  INFO 10836 --- [PetSolidario] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T19:42:54.051-03:00  INFO 10836 --- [PetSolidario] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T19:42:55.752-03:00  INFO 10836 --- [PetSolidario] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1566 ms. Found 4 JPA repository interfaces.
+2024-11-21T19:43:04.263-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:43:04.307-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:43:04.308-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:43:04.641-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:43:04.642-03:00  INFO 10836 --- [PetSolidario] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 18538 ms
+2024-11-21T19:43:04.762-03:00  INFO 10836 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T19:43:05.420-03:00  INFO 10836 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bd_pet_solidario user=SA
+2024-11-21T19:43:05.425-03:00  INFO 10836 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T19:43:05.477-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bd_pet_solidario'
+2024-11-21T19:43:06.079-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T19:43:07.249-03:00  INFO 10836 --- [PetSolidario] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T19:43:07.352-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T19:43:08.419-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T19:43:13.473-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T19:43:14.339-03:00  INFO 10836 --- [PetSolidario] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T19:43:16.000-03:00  WARN 10836 --- [PetSolidario] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T19:43:18.534-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:43:18.706-03:00  INFO 10836 --- [PetSolidario] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:43:18.860-03:00  INFO 10836 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : Started PetSolidarioApplication in 37.256 seconds (process running for 39.707)
+2024-11-21T23:00:26.794-03:00  INFO 10836 --- [PetSolidario] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T23:00:27.003-03:00  WARN 10836 --- [PetSolidario] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-11-21T23:00:27.005-03:00  INFO 10836 --- [PetSolidario] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T23:00:27.012-03:00  INFO 10836 --- [PetSolidario] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T23:00:52.779-03:00  INFO 9864 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : Starting PetSolidarioApplication using Java 17.0.6 with PID 9864 (C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\PetSolidario\target\classes started by LM in C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\PetSolidario)
+2024-11-21T23:00:52.785-03:00  INFO 9864 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : The following 1 profile is active: "test"
+2024-11-21T23:00:53.092-03:00  INFO 9864 --- [PetSolidario] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T23:00:53.092-03:00  INFO 9864 --- [PetSolidario] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T23:00:57.152-03:00  INFO 9864 --- [PetSolidario] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T23:00:57.310-03:00  INFO 9864 --- [PetSolidario] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140 ms. Found 4 JPA repository interfaces.
+2024-11-21T23:01:01.535-03:00  INFO 9864 --- [PetSolidario] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T23:01:01.565-03:00  INFO 9864 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T23:01:01.566-03:00  INFO 9864 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T23:01:02.128-03:00  INFO 9864 --- [PetSolidario] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T23:01:02.129-03:00  INFO 9864 --- [PetSolidario] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9036 ms
+2024-11-21T23:01:02.213-03:00  INFO 9864 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T23:01:03.293-03:00  INFO 9864 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bd_pet_solidario user=SA
+2024-11-21T23:01:03.296-03:00  INFO 9864 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T23:01:03.391-03:00  INFO 9864 --- [PetSolidario] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bd_pet_solidario'
+2024-11-21T23:01:04.647-03:00  INFO 9864 --- [PetSolidario] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T23:01:04.851-03:00  INFO 9864 --- [PetSolidario] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T23:01:04.976-03:00  INFO 9864 --- [PetSolidario] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T23:01:07.732-03:00  INFO 9864 --- [PetSolidario] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T23:01:15.809-03:00  INFO 9864 --- [PetSolidario] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T23:01:16.784-03:00  INFO 9864 --- [PetSolidario] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T23:01:19.604-03:00  WARN 9864 --- [PetSolidario] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2024-11-21T23:01:19.605-03:00 ERROR 9864 --- [PetSolidario] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ '--' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]
+2024-11-21T23:01:19.722-03:00  WARN 9864 --- [PetSolidario] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testConfig': Invocation of init method failed
+2024-11-21T23:01:19.724-03:00  INFO 9864 --- [PetSolidario] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T23:01:20.142-03:00  WARN 9864 --- [PetSolidario] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-11-21T23:01:20.144-03:00  INFO 9864 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T23:01:20.150-03:00  INFO 9864 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T23:01:20.155-03:00  INFO 9864 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-21T23:01:20.484-03:00  INFO 9864 --- [PetSolidario] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21T23:01:21.198-03:00 ERROR 9864 --- [PetSolidario] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testConfig': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.petSolidario.PetSolidario.PetSolidarioApplication.main(PetSolidarioApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ '--' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]] [insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?)]; SQL [insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?)]; constraint [PUBLIC.CONSTRAINT_INDEX_7]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.3.5.jar:3.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.14.jar:6.1.14]
+	at jdk.proxy4/jdk.proxy4.$Proxy137.save(Unknown Source) ~[na:na]
+	at com.petSolidario.services.DBService.initDB(DBService.java:53) ~[classes/:na]
+	at com.petSolidario.config.TestConfig.initDB(TestConfig.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219) ~[spring-beans-6.1.14.jar:6.1.14]
+	... 23 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ '--' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]] [insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?)]
+	at org.hibernate.dialect.H2Dialect.lambda$buildSQLExceptionConversionDelegate$3(H2Dialect.java:750) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:104) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:110) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-6.1.14.jar:6.1.14]
+	... 46 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ '--' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:527) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.Insert.update(Insert.java:135) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.Command.executeUpdate(Command.java:256) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174) ~[h2-2.2.224.jar:2.2.224]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 67 common frames omitted
+
+2024-11-21T23:02:39.535-03:00  INFO 11104 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : Starting PetSolidarioApplication using Java 17.0.6 with PID 11104 (C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\PetSolidario\target\classes started by LM in C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\PetSolidario)
+2024-11-21T23:02:39.541-03:00  INFO 11104 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : The following 1 profile is active: "test"
+2024-11-21T23:02:39.861-03:00  INFO 11104 --- [PetSolidario] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T23:02:39.862-03:00  INFO 11104 --- [PetSolidario] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T23:02:42.662-03:00  INFO 11104 --- [PetSolidario] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T23:02:42.822-03:00  INFO 11104 --- [PetSolidario] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140 ms. Found 4 JPA repository interfaces.
+2024-11-21T23:02:45.534-03:00  INFO 11104 --- [PetSolidario] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T23:02:45.574-03:00  INFO 11104 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T23:02:45.575-03:00  INFO 11104 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T23:02:45.784-03:00  INFO 11104 --- [PetSolidario] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T23:02:45.785-03:00  INFO 11104 --- [PetSolidario] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5920 ms
+2024-11-21T23:02:45.882-03:00  INFO 11104 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T23:02:46.416-03:00  INFO 11104 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bd_pet_solidario user=SA
+2024-11-21T23:02:46.420-03:00  INFO 11104 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T23:02:46.450-03:00  INFO 11104 --- [PetSolidario] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bd_pet_solidario'
+2024-11-21T23:02:46.956-03:00  INFO 11104 --- [PetSolidario] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T23:02:47.111-03:00  INFO 11104 --- [PetSolidario] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T23:02:47.239-03:00  INFO 11104 --- [PetSolidario] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T23:02:48.102-03:00  INFO 11104 --- [PetSolidario] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T23:02:51.360-03:00  INFO 11104 --- [PetSolidario] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T23:02:51.827-03:00  INFO 11104 --- [PetSolidario] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T23:02:53.148-03:00  WARN 11104 --- [PetSolidario] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2024-11-21T23:02:53.149-03:00 ERROR 11104 --- [PetSolidario] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ 'Sem Nome' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]
+2024-11-21T23:02:53.200-03:00  WARN 11104 --- [PetSolidario] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testConfig': Invocation of init method failed
+2024-11-21T23:02:53.201-03:00  INFO 11104 --- [PetSolidario] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T23:02:53.282-03:00  WARN 11104 --- [PetSolidario] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-11-21T23:02:53.283-03:00  INFO 11104 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T23:02:53.291-03:00  INFO 11104 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T23:02:53.298-03:00  INFO 11104 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-21T23:02:53.403-03:00  INFO 11104 --- [PetSolidario] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21T23:02:53.494-03:00 ERROR 11104 --- [PetSolidario] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testConfig': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.petSolidario.PetSolidario.PetSolidarioApplication.main(PetSolidarioApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ 'Sem Nome' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]] [insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?)]; SQL [insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?)]; constraint [PUBLIC.CONSTRAINT_INDEX_7]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.3.5.jar:3.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.14.jar:6.1.14]
+	at jdk.proxy4/jdk.proxy4.$Proxy137.save(Unknown Source) ~[na:na]
+	at com.petSolidario.services.DBService.initDB(DBService.java:53) ~[classes/:na]
+	at com.petSolidario.config.TestConfig.initDB(TestConfig.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219) ~[spring-beans-6.1.14.jar:6.1.14]
+	... 23 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ 'Sem Nome' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]] [insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?)]
+	at org.hibernate.dialect.H2Dialect.lambda$buildSQLExceptionConversionDelegate$3(H2Dialect.java:750) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:104) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:110) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-6.1.14.jar:6.1.14]
+	... 46 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ 'Sem Nome' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:527) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.Insert.update(Insert.java:135) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.Command.executeUpdate(Command.java:256) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174) ~[h2-2.2.224.jar:2.2.224]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 67 common frames omitted
+
+2024-11-21T23:03:05.920-03:00  INFO 11072 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : Starting PetSolidarioApplication using Java 17.0.6 with PID 11072 (C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\PetSolidario\target\classes started by LM in C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\PetSolidario)
+2024-11-21T23:03:05.929-03:00  INFO 11072 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : The following 1 profile is active: "test"
+2024-11-21T23:03:06.340-03:00  INFO 11072 --- [PetSolidario] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T23:03:06.341-03:00  INFO 11072 --- [PetSolidario] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T23:03:08.736-03:00  INFO 11072 --- [PetSolidario] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T23:03:08.905-03:00  INFO 11072 --- [PetSolidario] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 4 JPA repository interfaces.
+2024-11-21T23:03:11.542-03:00  INFO 11072 --- [PetSolidario] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T23:03:11.582-03:00  INFO 11072 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T23:03:11.582-03:00  INFO 11072 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T23:03:11.813-03:00  INFO 11072 --- [PetSolidario] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T23:03:11.815-03:00  INFO 11072 --- [PetSolidario] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5473 ms
+2024-11-21T23:03:11.980-03:00  INFO 11072 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T23:03:12.751-03:00  INFO 11072 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bd_pet_solidario user=SA
+2024-11-21T23:03:12.755-03:00  INFO 11072 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T23:03:12.852-03:00  INFO 11072 --- [PetSolidario] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bd_pet_solidario'
+2024-11-21T23:03:13.368-03:00  INFO 11072 --- [PetSolidario] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T23:03:13.535-03:00  INFO 11072 --- [PetSolidario] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T23:03:13.660-03:00  INFO 11072 --- [PetSolidario] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T23:03:14.527-03:00  INFO 11072 --- [PetSolidario] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T23:03:17.868-03:00  INFO 11072 --- [PetSolidario] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T23:03:18.331-03:00  INFO 11072 --- [PetSolidario] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T23:03:19.524-03:00  WARN 11072 --- [PetSolidario] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2024-11-21T23:03:19.524-03:00 ERROR 11072 --- [PetSolidario] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ 'Sem Nome' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]
+2024-11-21T23:03:19.603-03:00  WARN 11072 --- [PetSolidario] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testConfig': Invocation of init method failed
+2024-11-21T23:03:19.605-03:00  INFO 11072 --- [PetSolidario] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T23:03:19.687-03:00  WARN 11072 --- [PetSolidario] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-11-21T23:03:19.688-03:00  INFO 11072 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T23:03:19.759-03:00  INFO 11072 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T23:03:19.776-03:00  INFO 11072 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-21T23:03:19.859-03:00  INFO 11072 --- [PetSolidario] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21T23:03:19.924-03:00 ERROR 11072 --- [PetSolidario] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testConfig': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.petSolidario.PetSolidario.PetSolidarioApplication.main(PetSolidarioApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ 'Sem Nome' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]] [insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?)]; SQL [insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?)]; constraint [PUBLIC.CONSTRAINT_INDEX_7]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.3.5.jar:3.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.14.jar:6.1.14]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.14.jar:6.1.14]
+	at jdk.proxy4/jdk.proxy4.$Proxy137.save(Unknown Source) ~[na:na]
+	at com.petSolidario.services.DBService.initDB(DBService.java:53) ~[classes/:na]
+	at com.petSolidario.config.TestConfig.initDB(TestConfig.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219) ~[spring-beans-6.1.14.jar:6.1.14]
+	... 23 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ 'Sem Nome' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]] [insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?)]
+	at org.hibernate.dialect.H2Dialect.lambda$buildSQLExceptionConversionDelegate$3(H2Dialect.java:750) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:104) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:110) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-6.1.14.jar:6.1.14]
+	... 46 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.ANIMAL(NOME NULLS FIRST) VALUES ( /* 1 */ 'Sem Nome' )"; SQL statement:
+insert into newAnimal (cor,data_cadastro,data_nascimento,especie,nome,porte,raca,registro,sexo,id) values (?,?,?,?,?,?,?,?,?,?) [23505-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:527) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.Insert.update(Insert.java:135) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.Command.executeUpdate(Command.java:256) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174) ~[h2-2.2.224.jar:2.2.224]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 67 common frames omitted
+
+2024-11-21T23:04:37.535-03:00  INFO 4228 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : Starting PetSolidarioApplication using Java 17.0.6 with PID 4228 (C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\PetSolidario\target\classes started by LM in C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\PetSolidario)
+2024-11-21T23:04:37.543-03:00  INFO 4228 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : The following 1 profile is active: "test"
+2024-11-21T23:04:38.762-03:00  INFO 4228 --- [PetSolidario] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T23:04:38.776-03:00  INFO 4228 --- [PetSolidario] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T23:04:41.192-03:00  INFO 4228 --- [PetSolidario] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T23:04:41.454-03:00  INFO 4228 --- [PetSolidario] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 243 ms. Found 4 JPA repository interfaces.
+2024-11-21T23:04:44.428-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T23:04:44.464-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T23:04:44.465-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T23:04:44.651-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T23:04:44.652-03:00  INFO 4228 --- [PetSolidario] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5874 ms
+2024-11-21T23:04:44.765-03:00  INFO 4228 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T23:04:45.284-03:00  INFO 4228 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bd_pet_solidario user=SA
+2024-11-21T23:04:45.287-03:00  INFO 4228 --- [PetSolidario] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T23:04:45.319-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bd_pet_solidario'
+2024-11-21T23:04:45.855-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T23:04:46.016-03:00  INFO 4228 --- [PetSolidario] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T23:04:46.138-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T23:04:46.973-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T23:04:50.227-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T23:04:50.647-03:00  INFO 4228 --- [PetSolidario] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T23:04:52.097-03:00  WARN 4228 --- [PetSolidario] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T23:04:53.445-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T23:04:53.600-03:00  INFO 4228 --- [PetSolidario] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T23:04:53.643-03:00  INFO 4228 --- [PetSolidario] [restartedMain] c.p.P.PetSolidarioApplication            : Started PetSolidarioApplication in 17.689 seconds (process running for 19.158)
+2024-11-21T23:06:20.974-03:00  INFO 4228 --- [PetSolidario] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T23:06:21.013-03:00  WARN 4228 --- [PetSolidario] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-11-21T23:06:21.018-03:00  INFO 4228 --- [PetSolidario] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T23:06:21.024-03:00  INFO 4228 --- [PetSolidario] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
