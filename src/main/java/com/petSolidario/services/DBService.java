@@ -28,6 +28,9 @@ public class DBService {
     @Autowired
     private AdocaoRepository adocaoRepo;
 
+    @Autowired
+    private VeiculoRepository veiculoRepo;
+
     public void initDB(){
         Usuario usuario1 = new Usuario(null, "usuario1@gmail.com","senhauser1","usuario1","Masculino","123.456.789-09", LocalDate.of(2000,11,25));
         Usuario usuario2 = new Usuario(null, "usuario2@gmail.com","senhauser2","usuario2","Feminino","987.654.321-00", LocalDate.of(2004,5,1));
@@ -61,9 +64,9 @@ public class DBService {
 
         adocaoRepo.save(adocao2);
 
+        Veiculo veiculo1 = new Veiculo(null,"caro vermelho", LocalDate.now(),10.00, "Victor", "34357890821");
 
-
-
+        veiculoRepo.save(veiculo1);
     }
 }
 
